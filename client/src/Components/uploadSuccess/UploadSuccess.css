@@ -1,0 +1,121 @@
+.containerUpload {
+width: 25.02244rem;
+height: 28.43475rem;
+flex-shrink: 0;
+border-radius: 0.75rem;
+background: #FFF;
+box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.10);
+margin: auto;
+margin-top: 10%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: relative
+}
+
+.containerCheck {
+width: 2.625rem;
+height: 2.625rem;
+flex-shrink: 0;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 0.75rem;
+}
+
+.containerText {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.uploadText {
+color: var(--gray-2, #4F4F4F);
+font-size: 1.125rem;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.03938rem;
+margin: 1rem
+}
+
+.containerImage {
+width: 21.125rem;
+height: 14.02481rem;
+flex-shrink: 0;
+border-radius: 0.75rem;
+display: flex;
+justify-content: center;
+align-items: center;
+
+/* background: url(https://cdn.mos.cms.futurecdn.net/ZvZHbnXNEL8pB6u4bfJrU3.jpg), lightgray 50% / cover no-repeat; */
+}
+
+.containerInput {
+width: 21.125rem;
+height: 2.125rem;
+flex-shrink: 0;
+border-radius: 0.5rem;
+border: 1px solid var(--gray-5, #E0E0E0);
+background: #F6F8FB;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 1rem
+}
+
+.textToCopy {
+ color: var(--gray-2, #4F4F4F);
+text-align: center;
+font-family: Poppins;
+font-size: 0.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.0175rem;
+margin-left: 0.45rem
+
+}
+
+.buttonCopy {
+width: 4.625rem;
+height: 1.875rem;
+flex-shrink: 0;
+border-radius: 0.5rem;
+background: var(--blue-1, #2F80ED);
+border: none;
+margin-right: 0.06rem;
+cursor: pointer;
+}
+
+.buttonLabel {
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 0.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.0175rem;
+cursor: pointer;
+
+}
+
+.copySuccess {
+color: var(--gray-2, #4F4F4F);
+font-size: 0.7rem;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.03938rem;
+position: absolute;
+bottom: 10px;
+left: 10px
+}
+

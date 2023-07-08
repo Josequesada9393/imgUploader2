@@ -1,0 +1,64 @@
+
+
+.buttonContainer {
+    width: 6.3125rem;
+    height: 1.999rem;
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+    background: var(--blue-1, #2F80ED);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative
+}
+
+.innerButton {
+    display: flex;
+    width: 4.3125rem;
+    height: 0.9995rem;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: black;
+   
+    font-size: 0.75rem;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.02625rem;
+    cursor: pointer
+
+}
+.file-input {
+    display: none;
+  }
+  .uploadButton {
+    background-color: transparent;
+    border-radius: 0.5rem;
+    border: none;
+    color: white;
+    font-size: 0.75rem;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.02625rem;
+    cursor: pointer
+
+  }
+  .removeButton {
+    background-color: red;
+    border-radius: 0.5rem;
+    border: none;
+    color: white;
+    font-size: 0.75rem;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.02625rem;
+    cursor: pointer
+  }
+ 
