@@ -1,6 +1,6 @@
 
 
-const baseURL = 'http://localhost:3000/'
+// const baseURL = 'http://localhost:3000/'
 // const serverURL = 'https://image-uploader-server-woad.vercel.app/';
 
 export async function uploadFile<File extends BodyInit | null | undefined>(my_file: File): Promise<string> {
